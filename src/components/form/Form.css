@@ -1,0 +1,79 @@
+.contact {
+  padding: 3.5rem 0rem;
+}
+
+.contact h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #292c6d;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  color: #292c6d;
+  padding-bottom: 2.5rem;
+}
+
+.contact form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact form .form-control {
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  width: 65%;
+}
+
+.contact form .form-control .input-label {
+  display: block;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.contact form .form-control input,
+.contact form .form-control textarea {
+  font-family: inherit;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.6rem;
+  color: #292c6d;
+  font-weight: 400;
+  border: 2px solid #eee;
+  border-radius: 0.5rem;
+}
+
+.contact form .form-control textarea {
+  height: 20rem;
+}
+
+.contact form .form-control input[type='submit'] {
+  display: block;
+  width: 25rem;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  background-color: #292c6d;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  border: 1.5px solid #292c6d;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .contact form .form-control {
+    width: 85%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact form .form-control {
+    width: 100%;
+  }
+}

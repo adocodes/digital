@@ -1,0 +1,29 @@
+.nav-bar {
+  background: #fafafa;
+  padding: 1.5rem 0rem;
+  text-align: center;
+  border-bottom: 1.5px solid #ddd;
+}
+
+.nav-bar a {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0 2.5rem;
+  color: #292c6d;
+}
+
+.nav-bar .active {
+  width: 10rem;
+  text-align: center;
+  padding: 0.8rem 0;
+  background: #292c6d;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .nav-bar a {
+    padding: 0 1.5rem;
+  }
+}

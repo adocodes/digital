@@ -1,0 +1,39 @@
+.grow {
+  margin: auto 0;
+}
+
+.image-gallery {
+  padding: 6.5rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-gallery .gallery-item {
+  width: 32rem;
+  margin-bottom: 3.25rem;
+}
+
+.image-gallery .gallery-item img {
+  width: 100%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.image-gallery .gallery-item img:hover {
+  transform: scale(1.08);
+}
+
+@media (max-width: 690px) {
+  .image-gallery {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-gallery .gallery-item {
+    width: 85%;
+    margin-bottom: 3.25rem;
+  }
+}

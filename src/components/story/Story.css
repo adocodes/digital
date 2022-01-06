@@ -1,0 +1,62 @@
+.about-hero {
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url('../../assets/images/about-hero.jpg');
+  height: 60rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-content-section {
+  width: 110rem;
+  max-width: 98%;
+  margin: 0 auto;
+  margin-top: -15rem;
+  border: 2px solid #fafafa;
+  padding: 3rem;
+}
+
+.about-story {
+  background-color: #fff;
+  padding: 6.5rem;
+}
+
+.about-story h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #292c6d;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.about-story-description > p {
+  font-size: 1.6rem;
+  color: #292c6d;
+  padding-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    height: 40rem;
+  }
+
+  .about-story {
+    background-color: #fff;
+    padding: 2.5rem;
+  }
+
+  .about-content-section {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-content-section {
+    margin-top: -8rem;
+  }
+}

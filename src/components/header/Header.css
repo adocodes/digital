@@ -1,0 +1,13 @@
+.header {
+  background: #292c6d;
+  padding: 1.5rem 0rem;
+}
+
+.header h1 {
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
